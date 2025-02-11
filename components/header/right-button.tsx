@@ -54,10 +54,10 @@ export default async function RightButton() {
           >
             <DropdownMenuLabel className='font-normal'>
               <div className='flex flex-col space-y-1 border-b pb-4'>
-                <p className='text-sm my-1 font-medium leading-none'>
+                <p className='text-sm my-1 font-medium leading-none dark:text-zinc-700'>
                   {session.user.name}
                 </p>
-                <p className='text-xs leading-none text-muted-foreground'>
+                <p className='text-xs leading-none text-muted-foreground dark:text-zinc-400'>
                   {session.user.email}
                 </p>
               </div>

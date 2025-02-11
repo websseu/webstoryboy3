@@ -62,8 +62,8 @@ export default function SignInForm() {
         throw error
       }
       toast({
-        title: '에러',
-        description: '이메일 또는 비밀번호가 일치하지 않습니다.',
+        title: '이런 😭🤬😢',
+        description: '이메일 또는 비밀번호가 일치하지 않거나 계정이 없습니다.',
         variant: 'destructive',
       })
     }

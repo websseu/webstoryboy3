@@ -207,10 +207,16 @@ pre {
   }
 
   .table {
-    @apply font-nanum border-t border-b border-t-zinc-300 border-b-zinc-200 text-muted-foreground;
+    @apply font-nanum border-t border-b border-t-zinc-300 dark:border-t-zinc-500 dark:border-b-zinc-500 border-b-zinc-200 text-muted-foreground;
+  }
+  .table tr {
+    @apply dark:border-b-zinc-300 hover:bg-zinc-100/50;
   }
   .table th {
-    @apply text-center;
+    @apply text-center dark:text-zinc-800;
+  }
+  .table td {
+    @apply dark:text-zinc-600;
   }
 
   .not-found {
