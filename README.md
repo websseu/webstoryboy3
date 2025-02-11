@@ -61,13 +61,8 @@ npm i bcryptjs
 npm i --save-dev @types/bcryptjs
 npm i react-hook-form
 npm i @hookform/resolvers
-
 npm install nodemailer
 npm i --save-dev @types/nodemailer
-
-npm i react-syntax-highlighter
-npm i --save-dev @types/react-syntax-highlighter
-npm i react-intersection-observer
 ```
 
 ```
